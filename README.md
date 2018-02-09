@@ -10,11 +10,14 @@ Run `build.sh`
 It will create `src` folder with the Elixir application with the name of folder name.
 
 ### Working with application
-There is two helpers `./mix` and `./run`
+There is two helpers `./mix` and `./run`.
+
 Whith `./run` you can run `iex` or `mix` commands.
+
 For instance: `./run iex -S mix`
 
 `./mix` is just to work with `mix`.
+
 So instead of `./run mix compile` it's possible to execute `/mix compile`.
 
 ### Example:
