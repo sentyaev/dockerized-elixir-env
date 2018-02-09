@@ -1,0 +1,12 @@
+---
+version: '3'
+services:
+  app:
+    image: ${IMG_NAME}:${IMG_VERSION}
+    build:
+      context: .
+      args:
+        version: ${ELIXIR_IMG_VERSION}
+    volumes:
+      - ./src:/app
+    
