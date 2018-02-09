@@ -40,10 +40,10 @@ After this `my-app` folder will look like this:
     ├── config
     │   └── config.exs
     ├── lib
-    │   └── drunk_rabbit.ex
+    │   └── my_app.ex
     ├── mix.exs
     └── test
-        ├── drunk_rabbit_test.exs
+        ├── my_app_test.exs
         └── test_helper.exs
 ```
 And `mix.exs`:
