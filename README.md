@@ -47,7 +47,7 @@ After this `my-app` folder will look like this:
         └── test_helper.exs
 ```
 And `mix.exs`:
-```
+```elixir
 defmodule MyApp.MixProject do
   use Mix.Project
 
