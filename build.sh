@@ -13,4 +13,4 @@ cat ./docker-compose.yml.tmpl | \
 
 docker build -t ${IMG_NAME}:${IMG_VERSION} .
 docker-compose run --rm app mix new . --app ${APP_NAME}
-sudo chown -R $UID:$GID src/
+sudo chown -R $UID:${GID:?$UID} src/
