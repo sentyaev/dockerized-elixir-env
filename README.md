@@ -1,4 +1,5 @@
 # Dockerized Elixir Development Environment
+[![Build Status](https://travis-ci.org/sentyaev/dockerized-elixir-env.svg?branch=master)](https://travis-ci.org/sentyaev/dockerized-elixir-env)
 
 ### How to start
 Clone this repo whith name you'd like.
