@@ -1,5 +1,7 @@
 # Dockerized Elixir Development Environment
 
+Tested on MacOS and zsh
+
 ### How to start
 Clone this repo whith name you'd like.
 ```
