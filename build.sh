@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 ELIXIR_IMG_VERSION=1.6.1
 
 IMG_VERSION=${ELIXIR_IMG_VERSION}
